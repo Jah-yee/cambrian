@@ -14,7 +14,7 @@ gcp_link=$1
 
 # if doesnt start with gcp, then its a local path
 if [[ $gcp_link != gs* ]]; then
-    echo "Not a gs link. Recieved: $gcp_link"
+    echo "Not a gs link. Received: $gcp_link"
     exit 1
 fi
 
